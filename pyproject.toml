@@ -1,0 +1,19 @@
+[project]
+name = "full-eval"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "langchain>=1.5.2",
+    "langchain-community>=0.4.2",
+    "langchain-google-genai>=4.5.3",
+    "langchain-groq>=1.2.1",
+    "langchain-openai>=1.8.5",
+    "langgraph>=1.2.24",
+    "langsmith>=0.16.2",
+    "pymupdf>=2.2",
+    "pypdf>=7.2.0",
+    "python-dotenv>=1.2.4",
+]
